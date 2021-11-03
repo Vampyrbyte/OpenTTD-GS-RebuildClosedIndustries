@@ -29,7 +29,7 @@ class FMainClass extends GSInfo {
 	function CreateInstance()	{ return "MainClass"; }
 	function GetShortName()		{ return "RCIN"; } // Replace this with your own unique 4 letter string
 	function GetAPIVersion()	{ return "1.2"; }
-	function GetURL()			{ return ""; }
+	function GetURL()			{ return "https://github.com/Vampyrbyte/OpenTTD-GS-RebuildClosedIndustries"; }
 
 	function GetSettings() {
 		AddSetting({name = "log_level", description = "Debug: Log level (higher = print more)", easy_value = 3, medium_value = 3, hard_value = 3, custom_value = 3, flags = CONFIG_INGAME, min_value = 1, max_value = 3});
